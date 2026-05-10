@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Edge Grain on My Wood Gallery</title>
+    <link>//localhost:1313/tags/edge-grain/</link>
+    <description>Recent content in Edge Grain on My Wood Gallery</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 11 Mar 2026 08:59:39 -0500</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/edge-grain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wood Grain in Cutting Boards</title>
+      <link>//localhost:1313/post/2026/face-grain-boards/</link>
+      <pubDate>Wed, 11 Mar 2026 08:57:39 -0500</pubDate>
+      <guid>//localhost:1313/post/2026/face-grain-boards/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;//localhost:1313/post/2026/face-grain-boards/featured.jpg&#34;&#xA;    alt=&#34;Photo by Joel &amp;amp; Jasmin Førestbird, Unsplash&#34; width=&#34;350&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Photo by Joel &amp;amp; Jasmin Førestbird, &lt;em&gt;Unsplash&lt;/em&gt;&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;grain-faces-three-sides-of-a-board&#34;&gt;Grain Faces: three sides of a board&lt;/h2&gt;&#xA;&lt;p&gt;Photo by &lt;!-- raw HTML omitted --&gt;Joel &amp;amp; Jasmin Førestbird&lt;!-- raw HTML omitted --&gt; on &lt;!-- raw HTML omitted --&gt;Unsplash&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;face-grain&#34;&gt;Face grain&lt;/h3&gt;&#xA;&lt;p&gt;Wood boards have three grain types: &lt;em&gt;face&lt;/em&gt;, &lt;em&gt;edge&lt;/em&gt;, and &lt;em&gt;end&lt;/em&gt;. Face grain is the widest side of the board, Face grains offer natural wood growth-ring patterns that can either high contrasting curved  arches (a.k.a. “cathedrals”), elipses, straight lines, curly or even “tiger”  striped figures. In wood working, a single, wide board showing face grain is usually the prettiest presentation of the wood. Some projects benefit artisically and structurally by having very straight face grain, while other projects favor art over durability for random patterns of face grain.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Edge Grain Cutting Boards</title>
+      <link>//localhost:1313/post/2026/edge-grain-boards/</link>
+      <pubDate>Wed, 11 Mar 2026 08:59:39 -0500</pubDate>
+      <guid>//localhost:1313/post/2026/edge-grain-boards/</guid>
+      <description>&lt;h2 id=&#34;edge-grains-for-cuttingcharcuterie&#34;&gt;Edge grains for cutting/charcuterie&lt;/h2&gt;&#xA;&lt;p&gt;Edge grain is the thinner side of a board. Edge-grain cutting boards are sizeable “butcher block” styles of boards. Edge-grain building involves many glue joints (face-to-face) of edge grain strips. Each glue joint dramatically increases the strength of the board. Thus, edge-grain boards can be built to remain flat from small sizes to full kitchen counter tops.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
