@@ -112,3 +112,4 @@ pagerSize = 9
     name = "About"
     url = "/about/"
     weight = 6
+theme = 'lightbi-hugo'
