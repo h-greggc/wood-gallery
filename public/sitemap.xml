@@ -12,6 +12,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>//localhost:1313/post/2026/process/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>//localhost:1313/post/2026/furniture/</loc>
     <lastmod>2026-03-11T09:27:39-05:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -181,7 +185,15 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>//localhost:1313/categories/boards/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>//localhost:1313/categories/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>//localhost:1313/categories/processes/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
