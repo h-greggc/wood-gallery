@@ -1,7 +1,7 @@
 baseURL = '/'
 
 title = 'My Wood Gallery'
-# theme = 'lightbi-hugo'
+theme = 'lightbi-hugo'
 
 languageCode = "en"
 

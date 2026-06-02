@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Boards on My Wood Gallery</title>
+    <link>//localhost:1313/tags/boards/</link>
+    <description>Recent content in Boards on My Wood Gallery</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/tags/boards/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Processes</title>
+      <link>//localhost:1313/post/2026/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2026/process/</guid>
+      <description>&lt;p&gt;Typically, a thin strip of hardwood is laminated into the saw kerf in order to improve the strength of the glue up. The thin strips also add artistic interest.  To follow the board weaving process, click on the first picture and then &amp;quot;photo-swipe&amp;quot; through the album.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

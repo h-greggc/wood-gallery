@@ -99,5 +99,19 @@
       <guid>//localhost:1313/tags/stoicism/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Boards</title>
+      <link>//localhost:1313/tags/boards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/boards/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Processes</title>
+      <link>//localhost:1313/tags/processes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/processes/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
