@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<title>Posts - My Wood Gallery</title>
-<meta name="description" content="A collection of all blog posts">
+<title>Hosting Your Hugo Site on Netlify - My Wood Gallery</title>
+<meta name="description" content="Hosting a Hugo site on Netlify is an effective solution for deploying static websites, combining Hugo’s speed with Netlify’s robust features..">
 
 <meta name="author" content="H. Gregg Claycamp"><script type="application/ld+json">
 {
@@ -30,10 +30,59 @@
   
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "\/\/localhost:1313\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "\/\/localhost:1313\/post\/features\/netlify-configuration\/",
+          "name": "Hosting your hugo site on netlify"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "map[authorinfo: authorpostimage: facebook:username github:h-greggc gitlab:username instagram:username linkedin:username mastodon:url name:H. Gregg Claycamp paypal:username reddit:username slack:username snapchat:username spotify:username stackoverflow:users\/XXXXXXX\/username telegram:username threads:username twitter:username website:https:\/\/greggc-hb.netlify.app\/ youtube:user\/username]"
+  },
+  "headline": "Hosting Your Hugo Site on Netlify",
+  "description" : "Hosting a Hugo site on Netlify is an effective solution for deploying static websites, combining Hugo’s speed with Netlify’s robust features..",
+  "inLanguage" : "en",
+  "wordCount":  526 ,
+  "datePublished" : "2023-11-04T00:00:00",
+  "dateModified" : "2023-11-04T00:00:00",
+  "image" : "\/\/localhost:1313\/",
+  "keywords" : [ "hugo, Netlify" ],
+  "mainEntityOfPage" : "\/\/localhost:1313\/post\/features\/netlify-configuration\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "\/\/localhost:1313\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "\/\/localhost:1313\/",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
 
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="A collection of all blog posts">
-<meta property="og:url" content="//localhost:1313/post/" />
+<meta property="og:title" content="Hosting Your Hugo Site on Netlify" />
+<meta property="og:description" content="Hosting a Hugo site on Netlify is an effective solution for deploying static websites, combining Hugo’s speed with Netlify’s robust features..">
+<meta property="og:image" content="//localhost:1313/img/posts/2025/7.jpg" />
+<meta property="og:url" content="//localhost:1313/post/features/netlify-configuration/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="My Wood Gallery" />
 <link rel="apple-touch-icon" sizes="180x180" href=" //localhost:1313/favicon/apple-touch-icon.png">
@@ -247,7 +296,7 @@
             
             <div class="post-heading">
               <h1 class="fw-medium lh-1 align-items-center">
-                Posts
+                Hosting Your Hugo Site on Netlify
                 
               </h1>
             </div>
@@ -260,6 +309,38 @@
             
 
             
+            
+            <span class="post-meta">
+  <div class="row post-meta text-muted">
+    <div class="col-sm-12 col-md-6 px-0">
+      
+      
+  
+      
+      
+      
+      H. Gregg Claycamp |
+      
+      
+  
+      &nbsp; 04 November 2023
+    </div>
+
+  <div class="col-sm-12 col-md-6 text-sm-start text-md-end px-0">
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;3&nbsp;minutes
+  
+
+  
+</div>
+
+  
+</div>
+</span>
+
+
+            
+            
           </div>
         </div>
       </div>
@@ -271,347 +352,168 @@
     
 <div class="container" role="main">
   <div class="row">
-    <div class="col-md-12">
+
+    
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      <article role="main" class="blog-post">
+        <p>Hosting a Hugo site on Netlify is an effective solution for deploying static websites, combining Hugo’s speed with Netlify’s robust features like continuous deployment, a user-friendly dashboard, and advanced build settings.</p>
+<h3 id="why-use-netlify">Why Use Netlify?</h3>
+<p>Netlify is popular for its ease of use, free hosting tier, and powerful features like automated builds, custom domain support, and built-in SSL. With Hugo’s efficient static site generation, deploying on Netlify enables fast, seamless updates and management.</p>
+<h3 id="step-1-set-up-netlifytoml-configuration">Step 1: Set Up <code>netlify.toml</code> Configuration</h3>
+<p>The <code>netlify.toml</code> file is essential for configuring build settings in Netlify. Here’s a setup tailored for various deployment environments, including production, deploy previews, and branch deploys.</p>
+<p>Add the following <code>netlify.toml</code> file to your Hugo project’s root directory:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">build</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">publish</span> <span class="p">=</span> <span class="s2">&#34;public&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">command</span> <span class="p">=</span> <span class="s2">&#34;hugo --gc --minify&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">context</span><span class="p">.</span><span class="nx">production</span><span class="p">.</span><span class="nx">environment</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">HUGO_VERSION</span> <span class="p">=</span> <span class="s2">&#34;0.134.0&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">HUGO_ENV</span> <span class="p">=</span> <span class="s2">&#34;production&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">HUGO_ENABLEGITINFO</span> <span class="p">=</span> <span class="s2">&#34;false&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">context</span><span class="p">.</span><span class="nx">split1</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">command</span> <span class="p">=</span> <span class="s2">&#34;hugo --gc --minify --enableGitInfo&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">context</span><span class="p">.</span><span class="nx">split1</span><span class="p">.</span><span class="nx">environment</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">HUGO_VERSION</span> <span class="p">=</span> <span class="s2">&#34;0.134.0&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">HUGO_ENV</span> <span class="p">=</span> <span class="s2">&#34;production&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">context</span><span class="p">.</span><span class="nx">deploy-preview</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">command</span> <span class="p">=</span> <span class="s2">&#34;hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">context</span><span class="p">.</span><span class="nx">deploy-preview</span><span class="p">.</span><span class="nx">environment</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">HUGO_VERSION</span> <span class="p">=</span> <span class="s2">&#34;0.134.0&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">context</span><span class="p">.</span><span class="nx">branch-deploy</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">command</span> <span class="p">=</span> <span class="s2">&#34;hugo -b $DEPLOY_PRIME_URL&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">context</span><span class="p">.</span><span class="nx">branch-deploy</span><span class="p">.</span><span class="nx">environment</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">HUGO_VERSION</span> <span class="p">=</span> <span class="s2">&#34;0.134.0&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">context</span><span class="p">.</span><span class="nx">next</span><span class="p">.</span><span class="nx">environment</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">HUGO_ENABLEGITINFO</span> <span class="p">=</span> <span class="s2">&#34;false&#34;</span>
+</span></span></code></pre></div><h3 id="explanation-of-key-parameters">Explanation of Key Parameters</h3>
+<ul>
+<li><strong>Build Command</strong>: <code>hugo --gc --minify</code> triggers garbage collection (<code>--gc</code>) and minifies output.</li>
+<li><strong>HUGO_VERSION</strong>: Specifies the Hugo version to avoid compatibility issues.</li>
+<li><strong>HUGO_ENABLEGITINFO</strong>: Used for tracking commit metadata in production.</li>
+<li><strong>Deployment Contexts</strong>:
+<ul>
+<li><strong>Production</strong>: Builds optimized, production-ready files.</li>
+<li><strong>Deploy Preview</strong>: Builds the site using the pull request URL, helpful for staging.</li>
+<li><strong>Branch Deploy</strong>: Enables previews for branches other than the main one.</li>
+</ul>
+</li>
+</ul>
+<h3 id="step-2-connect-your-repository-to-netlify">Step 2: Connect Your Repository to Netlify</h3>
+<ol>
+<li>
+<p><strong>Log In to Netlify</strong>: Go to <a href="https://app.netlify.com/">Netlify</a>.</p>
+</li>
+<li>
+<p><strong>Create a New Site</strong>: Choose &ldquo;New site from Git&rdquo; from the dashboard.</p>
+</li>
+<li>
+<p><strong>Select Your Repository</strong>: Choose GitHub, GitLab, or Bitbucket, authenticate, and select your Hugo site repository.</p>
+</li>
+<li>
+<p><strong>Configure Build Settings</strong>:</p>
+<ul>
+<li><strong>Build Command</strong>: Leave as <code>hugo</code>.</li>
+<li><strong>Publish Directory</strong>: Set as <code>public</code> (Netlify automatically reads from <code>netlify.toml</code> if it’s present).</li>
+</ul>
+</li>
+<li>
+<p><strong>Deploy Your Site</strong>: Click &ldquo;Deploy site&rdquo; to initiate the first build. Netlify will pull from your repository, build, and deploy the site, which you can access via the provided default Netlify URL (e.g., <code>https://example-site.netlify.app</code>).</p>
+</li>
+</ol>
+<h3 id="step-3-preview-and-customize-your-site">Step 3: Preview and Customize Your Site</h3>
+<p>Once the build completes, visit the live preview URL to verify that your site is working correctly.</p>
+<h3 id="step-4-set-up-a-custom-domain-optional">Step 4: Set Up a Custom Domain (Optional)</h3>
+<p>To configure a custom domain:</p>
+<ol>
+<li>Go to the Netlify dashboard, select &ldquo;Domain settings,&rdquo; and add your domain.</li>
+<li>Follow the provided DNS setup instructions. If you want Netlify to manage DNS, you can transfer the domain or add a Netlify DNS record.</li>
+<li>Netlify automatically provisions an SSL certificate through Let’s Encrypt, adding secure HTTPS to your site.</li>
+</ol>
+<h3 id="step-5-enable-continuous-deployment">Step 5: Enable Continuous Deployment</h3>
+<p>Netlify supports continuous deployment by default. Each push to your repository triggers a new build and redeploys the latest changes. This makes it easy to manage updates or collaborate with others on site changes.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>Deploying a Hugo site on Netlify offers a streamlined experience, leveraging Hugo’s fast builds with Netlify’s advanced hosting features. With a few simple steps, your site is live, secure, and ready for easy content updates directly from Git.</p>
+<p>This setup is ideal for efficient deployment with customized environments, making it easy to manage development and production versions and maintain a polished, dynamic website.</p>
+
+      </article>
+    </div>
+  </div>
+
+  
+  <div class="row">
+        <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-2">
       
-        <div class="well">
-          <p>This section contains all blog posts for the Wood Gallery project.</p>
-
-        </div>
+      <div class="blog-tags">
+        
+        <a href="//localhost:1313/tags/hugo/">hugo</a>
+        
+        <a href="//localhost:1313/tags/netlify/">Netlify</a>
+        
+      </div>
       
-      <div class="row">
-        
-          
-<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
-    <a href="//localhost:1313/post/2026/face-grain-boards/">
-        <div class="card h-100 single-post-card shadow-effect bg-faded-light border rounded-4">
-            <div class="card-body">
-                <h3 class="fw-medium post-title">Wood Grain in Cutting Boards</h3>
-                
-
-                <p class="post-meta">
-                    <span class="post-meta text-muted">
-  
-  
-
-  11 March 2026
-
-  
-
-  
-  &nbsp;|&nbsp; <i class="bi bi-clock"></i>&nbsp;2&nbsp;minutes
-  
-
-  
-
-  
-</span>
-
-                </p>
-                
-
-                <div class="post-entry text-secondary">
-                    
-                    Different favored grains of boards have different strengths and beauty.
-                    
-                </div>
-
-                <div class="read-more-section">
-                    
-                    <h6 class="text-muted ">Read more <i class="bi bi-arrow-right"></i></h6>
-                </div>
-            </div>
-
-            
-           
-    <div class="image-wrapper">
-        <img src="/post/2026/face-grain-boards/featured_hu_2d3e2b93b8293bf5.jpg" alt="Face grains offer the most intriguing random patterns from wood."
-             class="img-fluid lazyload fixed-img rounded-bottom-4">
     </div>
-    
 
-    
-        </div>
-    </a>
-</div>
-
-
-        
-          
-<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
-    <a href="//localhost:1313/post/2026/edge-grain-boards/">
-        <div class="card h-100 single-post-card shadow-effect bg-faded-light border rounded-4">
-            <div class="card-body">
-                <h3 class="fw-medium post-title">Edge Grain Cutting Boards</h3>
-                
-
-                <p class="post-meta">
-                    <span class="post-meta text-muted">
-  
-  
-
-  11 March 2026
-
-  
-
-  
-  &nbsp;|&nbsp; <i class="bi bi-clock"></i>&nbsp;1&nbsp;minute
-  
-
-  
-
-  
-</span>
-
-                </p>
-                
-
-                <div class="post-entry text-secondary">
-                    
-                    Edge grain boards are the sturdy, classical &#34;butcher-block&#34; style of cutting boards.
-                    
-                </div>
-
-                <div class="read-more-section">
-                    
-                    <h6 class="text-muted ">Read more <i class="bi bi-arrow-right"></i></h6>
-                </div>
-            </div>
-
-            
-           
-    <div class="image-wrapper">
-        <img src="/post/2026/edge-grain-boards/board-in-process_hu_8ac370551db82ed5.jpg" alt="board-in-process.jpg"
-             class="img-fluid lazyload fixed-img rounded-bottom-4">
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      
     </div>
-    
 
-    
-        </div>
-    </a>
-</div>
+    <div class="col-lg-8 offset-lg-2 col-md-12 offset-md-1 pt-4">
+      
+      <ul class="list-group list-group-horizontal" style="flex-direction: row">
+        
+        <li class="list-group-item b-0 p-0">
+
+          <a type="button" class="btn btn-dark" role="button" href="//localhost:1313/post/features/markdown/"
+            data-toggle="tooltip" data-placement="top" title="What is Markdown ?">&larr;
+            Previous Post</a>
+        </li>
+        
 
 
         
-          
-<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
-    <a href="//localhost:1313/post/2026/process/">
-        <div class="card h-100 single-post-card shadow-effect bg-faded-light border rounded-4">
-            <div class="card-body">
-                <h3 class="fw-medium post-title">Processes</h3>
-                
-
-                <p class="post-meta">
-                    <span class="post-meta text-muted">
-  
-  
-
-  01 January 0001
-
-  
-
-  
-  &nbsp;|&nbsp; <i class="bi bi-clock"></i>&nbsp;1&nbsp;minute
-  
-
-  
-
-  
-</span>
-
-                </p>
-                
-
-                <div class="post-entry text-secondary">
-                    
-                    This post shows my two-board &#34;weaving&#34; process. Maple and walnut blanks are sawn together and a semi-random pattern is &#34;woven&#34; between them.
-                    
-                </div>
-
-                <div class="read-more-section">
-                    
-                    <h6 class="text-muted ">Read more <i class="bi bi-arrow-right"></i></h6>
-                </div>
-            </div>
-
-            
-           
-    <div class="image-wrapper">
-        <img src="/post/2026/process/6-woven-process_hu_dfe40275da47acbd.jpg" alt="6-woven-process.jpg"
-             class="img-fluid lazyload fixed-img rounded-bottom-4">
+        <li class="list-group-item ms-auto b-0 p-0">
+          <a type="button" class="btn btn-dark" role="button" href="//localhost:1313/post/features/image-gallery/"
+            data-toggle="tooltip" data-placement="top" title="Image Gallery Shortcode">Next Post
+            &rarr;</a>
+        </li>
+        
+      </ul>
+      
     </div>
-    
 
-    
-        </div>
-    </a>
-</div>
-
-
-        
-          
-<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
-    <a href="//localhost:1313/post/2026/furniture/">
-        <div class="card h-100 single-post-card shadow-effect bg-faded-light border rounded-4">
-            <div class="card-body">
-                <h3 class="fw-medium post-title">Some furniture examples</h3>
-                
-
-                <p class="post-meta">
-                    <span class="post-meta text-muted">
-  
-  
-
-  11 March 2026
-
-  
-
-  
-  &nbsp;|&nbsp; <i class="bi bi-clock"></i>&nbsp;0&nbsp;minutes
-  
-
-  
-
-  
-</span>
-
-                </p>
-                
-
-                <div class="post-entry text-secondary">
-                    
-                    A small collection of my furniture projects over 5 decades!
-                    
-                </div>
-
-                <div class="read-more-section">
-                    
-                    <h6 class="text-muted ">Read more <i class="bi bi-arrow-right"></i></h6>
-                </div>
-            </div>
-
-            
-           
-    <div class="image-wrapper">
-        <img src="/post/2026/furniture/1IMG_1985_hu_90e8ae1376b31deb.jpg" alt="1IMG_1985.jpg"
-             class="img-fluid lazyload fixed-img rounded-bottom-4">
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
     </div>
-    
-
-    
-        </div>
-    </a>
+  </div>
+  
 </div>
 
-
-        
-          
-<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
-    <a href="//localhost:1313/post/2026/boxes/">
-        <div class="card h-100 single-post-card shadow-effect bg-faded-light border rounded-4">
-            <div class="card-body">
-                <h3 class="fw-medium post-title">Boxes</h3>
-                
-
-                <p class="post-meta">
-                    <span class="post-meta text-muted">
+<div class="">
+  
+  
+  
   
   
 
-  15 March 2026
-
   
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 mt-3">
+        <h3>Read more</h3>
+        <hr />
+      </div>
 
-  
-  &nbsp;|&nbsp; <i class="bi bi-clock"></i>&nbsp;0&nbsp;minutes
-  
+      
+      
 
-  
-
-  
-</span>
-
-                </p>
-                
-
-                <div class="post-entry text-secondary">
-                    
-                    I  enjoy making all sorts of boxes--from exotic hardwoods to simple veneered plywood sides. The box functions include for storing jewelry, pencils or &#34;stuff.&#34; I have recently using mostly electric tools to mostly hand. It&#39;s quieter and quite satisfying. That includes hand-sharpening planes and chisels needed for making baby-smooth surfaces in wood.
-                    
-                </div>
-
-                <div class="read-more-section">
-                    
-                    <h6 class="text-muted ">Read more <i class="bi bi-arrow-right"></i></h6>
-                </div>
-            </div>
-
-            
-           
-    <div class="image-wrapper">
-        <img src="/post/2026/boxes/box-cocobolo-rhomboid_hu_a781321e7ba9ebb5.jpg" alt="box-cocobolo-rhomboid.jpg"
-             class="img-fluid lazyload fixed-img rounded-bottom-4">
-    </div>
-    
-
-    
-        </div>
-    </a>
-</div>
-
-
-        
-          
-<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
-    <a href="//localhost:1313/post/features/sample-post/">
-        <div class="card h-100 single-post-card shadow-effect bg-faded-light border rounded-4">
-            <div class="card-body">
-                <h3 class="fw-medium post-title">Sample Post</h3>
-                
-
-                <p class="post-meta">
-                    <span class="post-meta text-muted">
-  
-  
-
-  25 December 2023
-
-  
-
-  
-  &nbsp;|&nbsp; <i class="bi bi-clock"></i>&nbsp;2&nbsp;minutes
-  
-
-  
-
-  
-</span>
-
-                </p>
-                
-
-                <div class="post-entry text-secondary">
-                    
-                    This is a sample post where you can understand how this is working....
-                    
-                </div>
-
-                <div class="read-more-section">
-                    
-                    <h6 class="text-muted ">Read more <i class="bi bi-arrow-right"></i></h6>
-                </div>
-            </div>
-
-            
-           
-
-    
-        </div>
-    </a>
-</div>
-
-
-        
-          
+      
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
     <a href="//localhost:1313/post/features/install-hugo/">
         <div class="card h-100 single-post-card shadow-effect bg-faded-light border rounded-4">
@@ -661,8 +563,9 @@
 </div>
 
 
-        
-          
+      
+
+      
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
     <a href="//localhost:1313/post/features/use-this-theme/">
         <div class="card h-100 single-post-card shadow-effect bg-faded-light border rounded-4">
@@ -712,8 +615,9 @@
 </div>
 
 
-        
-          
+      
+
+      
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
     <a href="//localhost:1313/post/features/features-of-lightbi/">
         <div class="card h-100 single-post-card shadow-effect bg-faded-light border rounded-4">
@@ -763,44 +667,15 @@
 </div>
 
 
-        
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container">
- <div class="row font-sans">
-   <div class="col-md-12 mt-10">
-      <nav aria-label="Page navigation">
-      <ul class= "pagination justify-content-end">
       
-    <ul class="pagination pagination-default">
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/page/2/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-      </ul>
-      </nav>
     </div>
   </div>
-</div>
+  
+  
 
+  
+
+</div>
 
     
 
@@ -921,7 +796,7 @@
           </li>
           
           <li>
-            <a href="/post/index.xml" title="RSS">
+            <a href="" title="RSS">
               <span class="mx-2">
                 <i class="bi bi-rss"></i>
               </span>

@@ -7,7 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<title>Shortcodes - My Wood Gallery</title>
+<title>Lightbi Custom Shortcodes - My Wood Gallery</title>
+<meta name="description" content="You can create your own shortcodes for unique needs by adding an HTML file to the `layouts/shortcodes/` directory. Below are the custom shortcodes availble in this theme...">
 
 <meta name="author" content="H. Gregg Claycamp"><script type="application/ld+json">
 {
@@ -29,9 +30,59 @@
   
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "\/\/localhost:1313\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "\/\/localhost:1313\/post\/features\/custom-shortcodes\/",
+          "name": "Lightbi custom shortcodes"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "map[authorinfo: authorpostimage: facebook:username github:h-greggc gitlab:username instagram:username linkedin:username mastodon:url name:H. Gregg Claycamp paypal:username reddit:username slack:username snapchat:username spotify:username stackoverflow:users\/XXXXXXX\/username telegram:username threads:username twitter:username website:https:\/\/greggc-hb.netlify.app\/ youtube:user\/username]"
+  },
+  "headline": "Lightbi Custom Shortcodes",
+  "description" : "You can create your own shortcodes for unique needs by adding an HTML file to the \u0060layouts\/shortcodes\/\u0060 directory. Below are the custom shortcodes availble in this theme...",
+  "inLanguage" : "en",
+  "wordCount":  367 ,
+  "datePublished" : "2023-11-24T00:00:00",
+  "dateModified" : "2023-11-24T00:00:00",
+  "image" : "\/\/localhost:1313\/",
+  "keywords" : [ "shortcodes" ],
+  "mainEntityOfPage" : "\/\/localhost:1313\/post\/features\/custom-shortcodes\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "\/\/localhost:1313\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "\/\/localhost:1313\/",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
 
-<meta property="og:title" content="Shortcodes" />
-<meta property="og:url" content="//localhost:1313/tags/shortcodes/" />
+<meta property="og:title" content="Lightbi Custom Shortcodes" />
+<meta property="og:description" content="You can create your own shortcodes for unique needs by adding an HTML file to the `layouts/shortcodes/` directory. Below are the custom shortcodes availble in this theme...">
+<meta property="og:image" content="//localhost:1313/img/posts/2025/1.jpg" />
+<meta property="og:url" content="//localhost:1313/post/features/custom-shortcodes/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="My Wood Gallery" />
 <link rel="apple-touch-icon" sizes="180x180" href=" //localhost:1313/favicon/apple-touch-icon.png">
@@ -133,7 +184,7 @@
                 
                 
 
-                <a class="nav-link  active " title="Tags"
+                <a class="nav-link " title="Tags"
                   href="/tags/"> Tags</a>
               </li>
 
@@ -231,23 +282,23 @@
 
         
           
-        <div class="col-sm-12  col-md-12 col-lg-12 col-xl-12 tags-sec  text-center">
-          
-          
+          <div class="col-sm-12  col-md-12 col-lg-8 col-xl-8 non-tags-sec">
+            
+            
+          </div>
+          <div class="col-sm-12  col-md-12 col-lg-8 col-xl-8 non-tags-sec">
+            
 
 
             
             
-            <div class="tags-heading">
-              <h1 class="fw-medium lh-1">
-                #Shortcodes
+
+            
+            <div class="post-heading">
+              <h1 class="fw-medium lh-1 align-items-center">
+                Lightbi Custom Shortcodes
+                
               </h1>
-
-              <h4 class="tags-subheading fw-light mb-4">
-                Here, you’ll discover the latest notes that explore new insights, and unique perspectives on the world.</h4>
-            </div>
-            
-              </h1>
             </div>
 
 
@@ -257,6 +308,38 @@
 
             
 
+            
+            
+            <span class="post-meta">
+  <div class="row post-meta text-muted">
+    <div class="col-sm-12 col-md-6 px-0">
+      
+      
+  
+      
+      
+      
+      H. Gregg Claycamp |
+      
+      
+  
+      &nbsp; 24 November 2023
+    </div>
+
+  <div class="col-sm-12 col-md-6 text-sm-start text-md-end px-0">
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
+  
+
+  
+</div>
+
+  
+</div>
+</span>
+
+
+            
             
           </div>
         </div>
@@ -269,11 +352,261 @@
     
 <div class="container" role="main">
   <div class="row">
-    <div class="col-md-12">
-      
-      <div class="row">
+
+    
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      <article role="main" class="blog-post">
+        <p>To create your own shortcodes in Hugo, add an HTML file in layouts/shortcodes/. This theme provides the following useful custom shortcodes:</p>
+<h3 id="info-card">Info card</h3>
+<p>Displays information in a card format.</p>
+<h5 id="shortcode">Shortcode</h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{/* &lt; info_cards header=&#34;lorem-ipsum&#34; title=&#34;What is Lorem Ipsum?&#34; content=&#34;Lorem Ipsum is simply dummy text of the printing and typesetting industry.&#34; &gt; */}}
+</span></span></code></pre></div><h5 id="output">Output</h5>
+
+
+
+
+
+
+    
+
+
+<div class="card mb-3 p-0 mt-4 mb-4 info-card-bg">
+    <div class="card-body">
         
-          
+        <h5 class="card-title mt-0">
+            What is Lorem Ipsum?
+        </h5>
+        
+        <p class="card-text text-body-secondary fs-6 mt-0">
+
+             
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            
+        </p>
+    </div>
+</div>
+
+
+
+
+
+
+    
+
+
+<div class="card mb-3 p-0 mt-4 mb-4 alert alert-success">
+    <div class="card-body">
+        
+        <h5 class="card-title mt-0">
+            What is Lorem Ipsum?
+        </h5>
+        
+        <p class="card-text text-body-secondary fs-6 mt-0">
+
+             
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            
+        </p>
+    </div>
+</div>
+
+
+
+
+
+
+    
+
+
+<div class="card mb-3 p-0 mt-4 mb-4 alert alert-warning">
+    <div class="card-body">
+        
+        <h5 class="card-title mt-0">
+            What is Lorem Ipsum?
+        </h5>
+        
+        <p class="card-text text-body-secondary fs-6 mt-0">
+
+             
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            
+        </p>
+    </div>
+</div>
+<p><a href="https://binovarghese.com/blog/2023/06/info-card-shortcodes-for-hugo/">Read this for more details and code.</a></p>
+<h3 id="card-shortcode">Card shortcode</h3>
+<p>Adds cards with text and links.</p>
+<h5 id="shortcode-1">Shortcode</h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{/* &lt; bs_img_card title=&#34;Some&#34; link=&#34;https://some.com/&#34;
+</span></span><span class="line"><span class="cl">descr=&#34;Lorem Ipsum is simply dummy text of the printing and typesetting industry.&#34; &gt; */}}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">{{/* &lt; bs_img_card title=&#34;Example&#34; link=&#34;https://www.example.io/&#34; 
+</span></span><span class="line"><span class="cl">descr=&#34;Lorem Ipsum is simply dummy text of the printing and typesetting industry.&#34; &gt; */}}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">{{/* &lt; bs_img_card title=&#34;Here&#34; link=&#34;https://www.here.com/&#34;
+</span></span><span class="line"><span class="cl">descr=&#34;Lorem Ipsum is simply dummy text of the printing and typesetting industry.&#34; &gt; */}}
+</span></span></code></pre></div><h5 id="output-1">Output</h5>
+<div class="row">
+
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mb-4">
+    <a href="" aria-label="Link to the blog">
+        
+        <div class="card h-100 bg-faded-light">
+            <div class="card-body">
+                
+                <a href="" class=" fs-6 color-cgreen">
+                    <h4 class="card-title m-0">Some</h4>
+                </a>
+                
+                
+                <p class="fs-6 p-01">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                
+            </div>
+        </div>
+    </a>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mb-4">
+    <a href="" aria-label="Link to the blog">
+        
+        <div class="card h-100 bg-faded-light">
+            <div class="card-body">
+                
+                <a href="" class=" fs-6 color-cgreen">
+                    <h4 class="card-title m-0">Example</h4>
+                </a>
+                
+                
+                <p class="fs-6 p-01">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                
+            </div>
+        </div>
+    </a>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mb-4">
+    <a href="" aria-label="Link to the blog">
+        
+        <div class="card h-100 bg-faded-light">
+            <div class="card-body">
+                
+                <a href="" class=" fs-6 color-cgreen">
+                    <h4 class="card-title m-0">Here</h4>
+                </a>
+                
+                
+                <p class="fs-6 p-01">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                
+            </div>
+        </div>
+    </a>
+</div>
+</div>
+
+<p><a href="https://binovarghese.com/blog/2023/01/card-shortcodes-for-hugo/">Read this for more details and code.</a></p>
+<h3 id="details">Details</h3>
+<p>This simply adds the html5 detail attribute, supported on all <em>modern</em> browsers. Use it like this:</p>
+<h5 id="shortcode-2">Shortcode</h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{/* &lt; details &#34;This is the details title (click to expand)&#34; &gt; */ }}
+</span></span><span class="line"><span class="cl">Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+</span></span><span class="line"><span class="cl">{{ /* &lt; /details &gt; */}}
+</span></span></code></pre></div><h5 id="output-2">Output</h5>
+<details>
+<summary>This is the details title (click to expand)</summary>
+<div class="card card-body">
+
+Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+
+</div>
+</details>
+
+<h3 id="split">Split</h3>
+<p>This adds a two column side-by-side environment (will turn into 1 col for narrow devices):</p>
+<h5 id="shortcode-3">Shortcode</h5>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{ /* &lt; columns &gt; */ }}
+</span></span><span class="line"><span class="cl">This is column 1.
+</span></span><span class="line"><span class="cl">{{ /* &lt; column &gt; */ }}
+</span></span><span class="line"><span class="cl">This is column 2.
+</span></span><span class="line"><span class="cl">{{ /* &lt; endcolumns &gt; */ }}
+</span></span></code></pre></div><h5 id="output-3">Output</h5>
+<p><div class="splitbox"><div class="left">
+
+This is column 1.
+</div><div class="right">
+
+This is column 2.
+</div><div style="clear:both"></div></div>
+</p>
+
+      </article>
+    </div>
+  </div>
+
+  
+  <div class="row">
+        <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-2">
+      
+      <div class="blog-tags">
+        
+        <a href="//localhost:1313/tags/shortcodes/">shortcodes</a>
+        
+      </div>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-12 offset-md-1 pt-4">
+      
+      <ul class="list-group list-group-horizontal" style="flex-direction: row">
+        
+        <li class="list-group-item b-0 p-0">
+
+          <a type="button" class="btn btn-dark" role="button" href="//localhost:1313/post/features/image-gallery/"
+            data-toggle="tooltip" data-placement="top" title="Image Gallery Shortcode">&larr;
+            Previous Post</a>
+        </li>
+        
+
+
+        
+        <li class="list-group-item ms-auto b-0 p-0">
+          <a type="button" class="btn btn-dark" role="button" href="//localhost:1313/post/features/understanding-hugo-shortcodes/"
+            data-toggle="tooltip" data-placement="top" title="Understanding Hugo Shortcodes">Next Post
+            &rarr;</a>
+        </li>
+        
+      </ul>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+    </div>
+  </div>
+  
+</div>
+
+<div class="">
+  
+  
+  
+  
+  
+
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 mt-3">
+        <h3>Read more</h3>
+        <hr />
+      </div>
+
+      
+      
+
+      
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
     <a href="//localhost:1313/post/features/understanding-hugo-shortcodes/">
         <div class="card h-100 single-post-card shadow-effect bg-faded-light border rounded-4">
@@ -323,75 +656,15 @@
 </div>
 
 
-        
-          
-<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
-    <a href="//localhost:1313/post/features/custom-shortcodes/">
-        <div class="card h-100 single-post-card shadow-effect bg-faded-light border rounded-4">
-            <div class="card-body">
-                <h3 class="fw-medium post-title">Lightbi Custom Shortcodes</h3>
-                
-
-                <p class="post-meta">
-                    <span class="post-meta text-muted">
-  
-  
-
-  24 November 2023
-
-  
-
-  
-  &nbsp;|&nbsp; <i class="bi bi-clock"></i>&nbsp;2&nbsp;minutes
-  
-
-  
-
-  
-</span>
-
-                </p>
-                
-
-                <div class="post-entry text-secondary">
-                    
-                    You can create your own shortcodes for unique needs by adding an HTML file to the `layouts/shortcodes/` directory. Below are the custom shortcodes availble in this theme...
-                    
-                </div>
-
-                <div class="read-more-section">
-                    
-                    <h6 class="text-muted ">Read more <i class="bi bi-arrow-right"></i></h6>
-                </div>
-            </div>
-
-            
-           
-
-    
-        </div>
-    </a>
-</div>
-
-
-        
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container">
- <div class="row font-sans">
-   <div class="col-md-12 mt-10">
-      <nav aria-label="Page navigation">
-      <ul class= "pagination justify-content-end">
       
-      </ul>
-      </nav>
     </div>
   </div>
-</div>
+  
+  
 
+  
+
+</div>
 
     
 
@@ -512,7 +785,7 @@
           </li>
           
           <li>
-            <a href="/tags/shortcodes/index.xml" title="RSS">
+            <a href="" title="RSS">
               <span class="mx-2">
                 <i class="bi bi-rss"></i>
               </span>

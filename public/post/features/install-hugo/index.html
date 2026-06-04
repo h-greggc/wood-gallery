@@ -7,7 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<title>Netlify - My Wood Gallery</title>
+<title>Install Hugo in Windows - My Wood Gallery</title>
+<meta name="description" content="In this guide, we&#39;ll walk through installing Hugo, a popular static site generator...">
 
 <meta name="author" content="H. Gregg Claycamp"><script type="application/ld+json">
 {
@@ -29,9 +30,59 @@
   
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "\/\/localhost:1313\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "\/\/localhost:1313\/post\/features\/install-hugo\/",
+          "name": "Install hugo in windows"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "map[authorinfo: authorpostimage: facebook:username github:h-greggc gitlab:username instagram:username linkedin:username mastodon:url name:H. Gregg Claycamp paypal:username reddit:username slack:username snapchat:username spotify:username stackoverflow:users\/XXXXXXX\/username telegram:username threads:username twitter:username website:https:\/\/greggc-hb.netlify.app\/ youtube:user\/username]"
+  },
+  "headline": "Install Hugo in Windows",
+  "description" : "In this guide, we\u0027ll walk through installing Hugo, a popular static site generator...",
+  "inLanguage" : "en",
+  "wordCount":  106 ,
+  "datePublished" : "2023-12-20T00:00:00",
+  "dateModified" : "2023-12-20T00:00:00",
+  "image" : "\/\/localhost:1313\/",
+  "keywords" : [ "hugo, blog" ],
+  "mainEntityOfPage" : "\/\/localhost:1313\/post\/features\/install-hugo\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "\/\/localhost:1313\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "\/\/localhost:1313\/",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
 
-<meta property="og:title" content="Netlify" />
-<meta property="og:url" content="//localhost:1313/tags/netlify/" />
+<meta property="og:title" content="Install Hugo in Windows" />
+<meta property="og:description" content="In this guide, we&#39;ll walk through installing Hugo, a popular static site generator...">
+<meta property="og:image" content="//localhost:1313/img/posts/2025/4.jpg" />
+<meta property="og:url" content="//localhost:1313/post/features/install-hugo/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="My Wood Gallery" />
 <link rel="apple-touch-icon" sizes="180x180" href=" //localhost:1313/favicon/apple-touch-icon.png">
@@ -133,7 +184,7 @@
                 
                 
 
-                <a class="nav-link  active " title="Tags"
+                <a class="nav-link " title="Tags"
                   href="/tags/"> Tags</a>
               </li>
 
@@ -231,23 +282,23 @@
 
         
           
-        <div class="col-sm-12  col-md-12 col-lg-12 col-xl-12 tags-sec  text-center">
-          
-          
+          <div class="col-sm-12  col-md-12 col-lg-8 col-xl-8 non-tags-sec">
+            
+            
+          </div>
+          <div class="col-sm-12  col-md-12 col-lg-8 col-xl-8 non-tags-sec">
+            
 
 
             
             
-            <div class="tags-heading">
-              <h1 class="fw-medium lh-1">
-                #Netlify
+
+            
+            <div class="post-heading">
+              <h1 class="fw-medium lh-1 align-items-center">
+                Install Hugo in Windows
+                
               </h1>
-
-              <h4 class="tags-subheading fw-light mb-4">
-                Here, you’ll discover the latest notes that explore new insights, and unique perspectives on the world.</h4>
-            </div>
-            
-              </h1>
             </div>
 
 
@@ -257,6 +308,38 @@
 
             
 
+            
+            
+            <span class="post-meta">
+  <div class="row post-meta text-muted">
+    <div class="col-sm-12 col-md-6 px-0">
+      
+      
+  
+      
+      
+      
+      H. Gregg Claycamp |
+      
+      
+  
+      &nbsp; 20 December 2023
+    </div>
+
+  <div class="col-sm-12 col-md-6 text-sm-start text-md-end px-0">
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minute
+  
+
+  
+</div>
+
+  
+</div>
+</span>
+
+
+            
             
           </div>
         </div>
@@ -269,16 +352,117 @@
     
 <div class="container" role="main">
   <div class="row">
-    <div class="col-md-12">
+
+    
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      <article role="main" class="blog-post">
+        <p>Hugo comes in three versions: Standard, Extended, and Extended/Deploy. The Standard edition covers core functionalities, while Extended adds advanced options, with Extended/Deploy** offering further deployment features.</p>
+<h3 id="setting-up-your-directories">Setting Up Your Directories</h3>
+<ol>
+<li>Open File Explorer and create a folder, e.g., <code>C:\Hugo</code>, and inside it, a <code>bin</code> folder.</li>
+</ol>
+<h3 id="installing-hugo">Installing Hugo</h3>
+<ol>
+<li>
+<p>Download the latest Hugo executable from <a href="https://github.com/gohugoio/hugo/releases/">Hugo releases</a>.</p>
+</li>
+<li>
+<p>Extract the contents into <code>..\Hugo\bin</code>.</p>
+</li>
+<li>
+<p>Open Command Prompt as Administrator and add Hugo to the PATH:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">setx PATH &#34;%PATH%;C:\Hugo\bin&#34;
+</span></span></code></pre></div><p>Alternatively, add <code>C:\Hugo\bin</code> via Environment Variables.</p>
+</li>
+<li>
+<p>Verify the installation by typing <code>hugo help</code> in the command prompt.</p>
+</li>
+</ol>
+<figure><img src="/img/posts/install-hugo/hugo-help-command.png"
+    alt="Hugo help in Command Prompt"><figcaption>
+      <p>Hugo in Command Prompt</p>
+    </figcaption>
+</figure>
+
+<p>You can check the offical documentation for more installation details <a href="https://gohugo.io/installation/">here</a>.</p>
+
+      </article>
+    </div>
+  </div>
+
+  
+  <div class="row">
+        <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-2">
       
-      <div class="row">
+      <div class="blog-tags">
         
-          
+        <a href="//localhost:1313/tags/hugo/">hugo</a>
+        
+        <a href="//localhost:1313/tags/blog/">blog</a>
+        
+      </div>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-12 offset-md-1 pt-4">
+      
+      <ul class="list-group list-group-horizontal" style="flex-direction: row">
+        
+        <li class="list-group-item b-0 p-0">
+
+          <a type="button" class="btn btn-dark" role="button" href="//localhost:1313/post/features/use-this-theme/"
+            data-toggle="tooltip" data-placement="top" title="How to use Lightbi theme ?">&larr;
+            Previous Post</a>
+        </li>
+        
+
+
+        
+        <li class="list-group-item ms-auto b-0 p-0">
+          <a type="button" class="btn btn-dark" role="button" href="//localhost:1313/post/features/sample-post/"
+            data-toggle="tooltip" data-placement="top" title="Sample Post">Next Post
+            &rarr;</a>
+        </li>
+        
+      </ul>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+    </div>
+  </div>
+  
+</div>
+
+<div class="">
+  
+  
+  
+  
+  
+
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 mt-3">
+        <h3>Read more</h3>
+        <hr />
+      </div>
+
+      
+      
+
+      
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
-    <a href="//localhost:1313/post/features/netlify-configuration/">
+    <a href="//localhost:1313/post/2026/face-grain-boards/">
         <div class="card h-100 single-post-card shadow-effect bg-faded-light border rounded-4">
             <div class="card-body">
-                <h3 class="fw-medium post-title">Hosting Your Hugo Site on Netlify</h3>
+                <h3 class="fw-medium post-title">Wood Grain in Cutting Boards</h3>
                 
 
                 <p class="post-meta">
@@ -286,12 +470,12 @@
   
   
 
-  04 November 2023
+  11 March 2026
 
   
 
   
-  &nbsp;|&nbsp; <i class="bi bi-clock"></i>&nbsp;3&nbsp;minutes
+  &nbsp;|&nbsp; <i class="bi bi-clock"></i>&nbsp;2&nbsp;minutes
   
 
   
@@ -304,7 +488,64 @@
 
                 <div class="post-entry text-secondary">
                     
-                    Hosting a Hugo site on Netlify is an effective solution for deploying static websites, combining Hugo’s speed with Netlify’s robust features..
+                    Different favored grains of boards have different strengths and beauty.
+                    
+                </div>
+
+                <div class="read-more-section">
+                    
+                    <h6 class="text-muted ">Read more <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+
+            
+           
+    <div class="image-wrapper">
+        <img src="/post/2026/face-grain-boards/featured_hu_2d3e2b93b8293bf5.jpg" alt="Face grains offer the most intriguing random patterns from wood."
+             class="img-fluid lazyload fixed-img rounded-bottom-4">
+    </div>
+    
+
+    
+        </div>
+    </a>
+</div>
+
+
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
+    <a href="//localhost:1313/post/features/sample-post/">
+        <div class="card h-100 single-post-card shadow-effect bg-faded-light border rounded-4">
+            <div class="card-body">
+                <h3 class="fw-medium post-title">Sample Post</h3>
+                
+
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
+  
+  
+
+  25 December 2023
+
+  
+
+  
+  &nbsp;|&nbsp; <i class="bi bi-clock"></i>&nbsp;2&nbsp;minutes
+  
+
+  
+
+  
+</span>
+
+                </p>
+                
+
+                <div class="post-entry text-secondary">
+                    
+                    This is a sample post where you can understand how this is working....
                     
                 </div>
 
@@ -323,24 +564,67 @@
 </div>
 
 
-        
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container">
- <div class="row font-sans">
-   <div class="col-md-12 mt-10">
-      <nav aria-label="Page navigation">
-      <ul class= "pagination justify-content-end">
       
-      </ul>
-      </nav>
-    </div>
-  </div>
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
+    <a href="//localhost:1313/post/features/use-this-theme/">
+        <div class="card h-100 single-post-card shadow-effect bg-faded-light border rounded-4">
+            <div class="card-body">
+                <h3 class="fw-medium post-title">How to use Lightbi theme ?</h3>
+                
+
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
+  
+  
+
+  18 December 2023
+
+  
+
+  
+  &nbsp;|&nbsp; <i class="bi bi-clock"></i>&nbsp;1&nbsp;minute
+  
+
+  
+
+  
+</span>
+
+                </p>
+                
+
+                <div class="post-entry text-secondary">
+                    
+                    In this post, we&#39;ll cover how to install Hugo and set up your first website with the Lightbi theme...
+                    
+                </div>
+
+                <div class="read-more-section">
+                    
+                    <h6 class="text-muted ">Read more <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+
+            
+           
+
+    
+        </div>
+    </a>
 </div>
 
+
+      
+    </div>
+  </div>
+  
+  
+
+  
+
+</div>
 
     
 
@@ -461,7 +745,7 @@
           </li>
           
           <li>
-            <a href="/tags/netlify/index.xml" title="RSS">
+            <a href="" title="RSS">
               <span class="mx-2">
                 <i class="bi bi-rss"></i>
               </span>
