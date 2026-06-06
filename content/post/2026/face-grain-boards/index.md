@@ -1,7 +1,7 @@
 ---
 date: '2026-03-11T08:57:39-05:00'
 draft: false
-title: Wood Grain in Cutting Boards
+title: Wood Grains for Cutting Boards
 tags: ["gallery", "face grain","edge grain","end grain","blog"]
 description: Different favored grains of boards have different strengths and beauty. 
 featured: true

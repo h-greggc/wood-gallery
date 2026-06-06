@@ -9,4 +9,6 @@ description: This post shows my two-board "weaving" process. Maple and walnut bl
 ---
 
 
-Typically, a thin strip of hardwood is laminated into the saw kerf in order to improve the strength of the glue up. The thin strips also add artistic interest.  To follow the board weaving process, click on the first picture and then \"photo-swipe\" through the album.
+Typically, a thin strip of hardwood is laminated into the saw kerf in order to improve the strength of the glue up. The thin strips also add artistic interest. To follow the board weaving process, click on the first picture and then \"photo-swipe\" through the album.
+
+{{< img_gallery  folder="img/processes/" >}}

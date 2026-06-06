@@ -1,5 +1,5 @@
 {{ $folder := .Get "folder" }}
-{{ $images := resources.Match (printf "%s/*.{jpg,png}" $folder) }}
+{{ $images := resources.Match (printf "%s/*.{jpg,png,JPEG,jpeg}" $folder) }}
 
 <div class="container">
     <div class="gallery">

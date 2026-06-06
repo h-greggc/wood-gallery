@@ -6,10 +6,10 @@
     <description>Recent content in Gallery on My Wood Gallery</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Mar 2026 08:59:39 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 11 Mar 2026 09:27:39 -0500</lastBuildDate>
     <atom:link href="//localhost:1313/tags/gallery/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Wood Grain in Cutting Boards</title>
+      <title>Wood Grains for Cutting Boards</title>
       <link>//localhost:1313/post/2026/face-grain-boards/</link>
       <pubDate>Wed, 11 Mar 2026 08:57:39 -0500</pubDate>
       <guid>//localhost:1313/post/2026/face-grain-boards/</guid>
@@ -21,6 +21,13 @@
       <pubDate>Wed, 11 Mar 2026 08:59:39 -0500</pubDate>
       <guid>//localhost:1313/post/2026/edge-grain-boards/</guid>
       <description>&lt;h2 id=&#34;edge-grains-for-cutting-boards&#34;&gt;Edge grains for cutting boards&lt;/h2&gt;&#xA;&lt;p&gt;Edge grain is the thinner side of a board. Edge-grain cutting boards are sizeable “butcher block” styles of boards. Edge-grain building involves many glue joints (face-to-face) of edge grain strips. Each glue joint dramatically increases the strength of the board. Thus, edge-grain boards can be built to remain flat from small sizes to full kitchen counter tops.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Some furniture examples</title>
+      <link>//localhost:1313/post/2026/furniture/</link>
+      <pubDate>Wed, 11 Mar 2026 09:27:39 -0500</pubDate>
+      <guid>//localhost:1313/post/2026/furniture/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;gallery&#34;&gt;&#xD;&#xA;        &#xD;&#xA;        &lt;a href=&#34;//localhost:1313/img/furniture/furniture-gallery/2home-profile-pic.png&#34; class=&#34;glightbox&#34; class=&#34;gallery-item&#34;&gt;&#xD;&#xA;            &lt;img src=&#34;//localhost:1313/img/furniture/furniture-gallery/2home-profile-pic.png&#34; alt=&#34;/img/furniture/furniture-gallery/2home-profile-pic.png&#34; class=&#34;img-fluid rounded mb-2&#34; /&gt;&#xD;&#xA;        &lt;/a&gt;&#xD;&#xA;        &#xD;&#xA;        &lt;a href=&#34;//localhost:1313/img/furniture/furniture-gallery/20250224_Side-table-enameled-poplar.jpg&#34; class=&#34;glightbox&#34; class=&#34;gallery-item&#34;&gt;&#xD;&#xA;            &lt;img src=&#34;//localhost:1313/img/furniture/furniture-gallery/20250224_Side-table-enameled-poplar.jpg&#34; alt=&#34;/img/furniture/furniture-gallery/20250224_Side-table-enameled-poplar.jpg&#34; class=&#34;img-fluid rounded mb-2&#34; /&gt;&#xD;&#xA;        &lt;/a&gt;&#xD;&#xA;        &#xD;&#xA;        &lt;a href=&#34;//localhost:1313/img/furniture/furniture-gallery/20250224_Side-table-padauk.jpg&#34; class=&#34;glightbox&#34; class=&#34;gallery-item&#34;&gt;&#xD;&#xA;            &lt;img src=&#34;//localhost:1313/img/furniture/furniture-gallery/20250224_Side-table-padauk.jpg&#34; alt=&#34;/img/furniture/furniture-gallery/20250224_Side-table-padauk.jpg&#34; class=&#34;img-fluid rounded mb-2&#34; /&gt;&#xD;&#xA;        &lt;/a&gt;&#xD;&#xA;        &#xD;&#xA;        &lt;a href=&#34;//localhost:1313/img/furniture/furniture-gallery/4IMG_1985.jpeg&#34; class=&#34;glightbox&#34; class=&#34;gallery-item&#34;&gt;&#xD;&#xA;            &lt;img src=&#34;//localhost:1313/img/furniture/furniture-gallery/4IMG_1985.jpeg&#34; alt=&#34;/img/furniture/furniture-gallery/4IMG_1985.jpeg&#34; class=&#34;img-fluid rounded mb-2&#34; /&gt;&#xD;&#xA;        &lt;/a&gt;&#xD;&#xA;        &#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;style&gt;&#xD;&#xA;     &#xD;&#xA;    .gallery {&#xD;&#xA;        column-count: 3;&#xD;&#xA;         &#xD;&#xA;        column-gap: 15px;&#xD;&#xA;         &#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .gallery-item {&#xD;&#xA;        display: inline-block;&#xD;&#xA;        width: 100%;&#xD;&#xA;        break-inside: avoid;&#xD;&#xA;         &#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .gallery img {&#xD;&#xA;        width: 100%;&#xD;&#xA;        height: auto;&#xD;&#xA;        transition: transform 0.3s ease;&#xD;&#xA;        border-radius: 4px;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .gallery img:hover {&#xD;&#xA;        transform: scale(1.05);&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;     &#xD;&#xA;    @media (max-width: 992px) {&#xD;&#xA;        .gallery {&#xD;&#xA;            column-count: 3;&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    @media (max-width: 768px) {&#xD;&#xA;        .gallery {&#xD;&#xA;            column-count: 2;&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    @media (max-width: 576px) {&#xD;&#xA;        .gallery {&#xD;&#xA;            column-count: 1;&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .glightbox-open {&#xD;&#xA;        height: auto;&#xD;&#xA;    }&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;script&gt;&#xD;&#xA;    const lightbox = GLightbox({&#xD;&#xA;        selector: &#39;.glightbox&#39;,&#xD;&#xA;        scrollLock: false  &#xD;&#xA;    });&#xD;&#xA;&lt;/script&gt;</description>
     </item>
   </channel>
 </rss>

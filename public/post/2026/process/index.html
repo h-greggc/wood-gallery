@@ -357,7 +357,110 @@
 
     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
       <article role="main" class="blog-post">
-        <p>Typically, a thin strip of hardwood is laminated into the saw kerf in order to improve the strength of the glue up. The thin strips also add artistic interest.  To follow the board weaving process, click on the first picture and then &quot;photo-swipe&quot; through the album.</p>
+        <p>Typically, a thin strip of hardwood is laminated into the saw kerf in order to improve the strength of the glue up. The thin strips also add artistic interest. To follow the board weaving process, click on the first picture and then &quot;photo-swipe&quot; through the album.</p>
+
+
+
+<div class="container">
+    <div class="gallery">
+        
+        <a href="/img/processes/1-woven-process.jpg" class="glightbox" class="gallery-item">
+            <img src="/img/processes/1-woven-process.jpg" alt="/img/processes/1-woven-process.jpg" class="img-fluid rounded mb-2" />
+        </a>
+        
+        <a href="/img/processes/2-woven-process.jpg" class="glightbox" class="gallery-item">
+            <img src="/img/processes/2-woven-process.jpg" alt="/img/processes/2-woven-process.jpg" class="img-fluid rounded mb-2" />
+        </a>
+        
+        <a href="/img/processes/3-woven-process.jpg" class="glightbox" class="gallery-item">
+            <img src="/img/processes/3-woven-process.jpg" alt="/img/processes/3-woven-process.jpg" class="img-fluid rounded mb-2" />
+        </a>
+        
+        <a href="/img/processes/4-woven-process.jpg" class="glightbox" class="gallery-item">
+            <img src="/img/processes/4-woven-process.jpg" alt="/img/processes/4-woven-process.jpg" class="img-fluid rounded mb-2" />
+        </a>
+        
+        <a href="/img/processes/5-woven-process.jpg" class="glightbox" class="gallery-item">
+            <img src="/img/processes/5-woven-process.jpg" alt="/img/processes/5-woven-process.jpg" class="img-fluid rounded mb-2" />
+        </a>
+        
+        <a href="/img/processes/6-woven-process.jpg" class="glightbox" class="gallery-item">
+            <img src="/img/processes/6-woven-process.jpg" alt="/img/processes/6-woven-process.jpg" class="img-fluid rounded mb-2" />
+        </a>
+        
+        <a href="/img/processes/7-woven-process.jpg" class="glightbox" class="gallery-item">
+            <img src="/img/processes/7-woven-process.jpg" alt="/img/processes/7-woven-process.jpg" class="img-fluid rounded mb-2" />
+        </a>
+        
+        <a href="/img/processes/8-woven-process.JPEG" class="glightbox" class="gallery-item">
+            <img src="/img/processes/8-woven-process.JPEG" alt="/img/processes/8-woven-process.JPEG" class="img-fluid rounded mb-2" />
+        </a>
+        
+        <a href="/img/processes/9-woven-process.JPEG" class="glightbox" class="gallery-item">
+            <img src="/img/processes/9-woven-process.JPEG" alt="/img/processes/9-woven-process.JPEG" class="img-fluid rounded mb-2" />
+        </a>
+        
+    </div>
+</div>
+
+<style>
+     
+    .gallery {
+        column-count: 3;
+         
+        column-gap: 15px;
+         
+    }
+
+    .gallery-item {
+        display: inline-block;
+        width: 100%;
+        break-inside: avoid;
+         
+    }
+
+    .gallery img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+        border-radius: 4px;
+    }
+
+    .gallery img:hover {
+        transform: scale(1.05);
+    }
+
+     
+    @media (max-width: 992px) {
+        .gallery {
+            column-count: 3;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .gallery {
+            column-count: 2;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .gallery {
+            column-count: 1;
+        }
+    }
+
+    .glightbox-open {
+        height: auto;
+    }
+</style>
+
+
+<script>
+    const lightbox = GLightbox({
+        selector: '.glightbox',
+        scrollLock: false  
+    });
+</script>
 
       </article>
     </div>
